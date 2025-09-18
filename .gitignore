@@ -1,0 +1,24 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Dataset files (optional: if large, ignore and use Git LFS or external link)
+datasets/
+*.h5   # If you want to ignore large model files
+*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
