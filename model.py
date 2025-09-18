@@ -90,5 +90,5 @@ def predict_and_guide(img_path, class_labels):
 
     return predicted_class
 
-test_image_path = "C:\\Users\\Shraddha\\OneDrive\\Pictures\\bottel.jpeg"
+test_image_path = "test.jpeg"
 predicted_class = predict_and_guide(test_image_path, class_labels)
